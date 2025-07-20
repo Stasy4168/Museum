@@ -1,0 +1,91 @@
+body {
+    background-color: gray;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    width: 1920px;
+    color: white;
+}
+
+h2 {
+    font: Forum, serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+}
+
+.white_font {
+    color: white;
+}
+
+.gold_font {
+    color: #9D8665;
+}
+
+.black_bg {
+    background-color: black;
+    color: white;
+}
+
+.white_bg {
+    background-color: #ffffff;
+    color: #9D8665;
+}
+
+.welcome_inner {
+    width: 1440px;
+    height: 810px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+    align-items: end;
+    justify-items: last baseline;
+}
+
+.welcome_inner_left {
+    width: 598px;
+    height: 388px;
+    position: absolute;
+}
+
+.welcome_inner_right {
+    width: 1000px;
+    height: 810px;
+    align-self: end;
+}
+
+.text {
+    font: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 2pxS;
+}
+
+.button {
+    background-color: #710707;
+    width: 360px;
+    height: 75px;
+    border-radius: 10px;
+    font: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: #ffffff;
+}
